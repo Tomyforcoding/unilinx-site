@@ -5,22 +5,22 @@ type Lang = "en" | "ja" | "zh";
 
 const text = {
   en: {
-    title: "Unilinx — University Links Network",
-    desc: "Learn · Build · Connect — a neutral education & collaboration hub for campus Web3/Tech.",
-    cta: "Join the community",
-    disclaimer: "Unilinx provides education & events only. No investment advice. No asset custody.",
+    title: "Unilinx",
+    desc: "",
+    cta: "",
+    disclaimer: "",
   },
   ja: {
-    title: "Unilinx — University Links Network",
-    desc: "学ぶ・作る・つながる —— 大学のための中立的な Web3/Tech 教育・協業ハブ。",
-    cta: "コミュニティに参加",
-    disclaimer: "Unilinx は教育・イベント情報のみを提供します。投資助言や資産管理は行いません。",
+    title: "Unilinx",
+    desc: "",
+    cta: "",
+    disclaimer: "",
   },
   zh: {
-    title: "Unilinx — 大学连接网络",
-    desc: "学 · 做 · 联 —— 面向校园的中立 Web3/Tech 教育与协作平台。",
-    cta: "加入社区",
-    disclaimer: "本网站仅提供教育与活动信息，不提供投资建议，不托管任何资产。",
+    title: "Unilinx",
+    desc: "",
+    cta: "",
+    disclaimer: "",
   },
 } as const;
 
