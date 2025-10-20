@@ -29,9 +29,12 @@ export default function Home() {
   const t = text[lang];
 
   return (
+    
+    
     <main style={{ fontFamily: "system-ui, sans-serif", lineHeight: 1.6 }}>
+     
       {/* Header */}
-      <header style={{ borderBottom: "1px solid #eee", padding: "12px 20px", display: "flex", justifyContent: "space-between" }}>
+      <header style={{ borderBottom: "1px solid #eee", padding: "20px 20px", display: "flex", justifyContent: "space-between" }}>
         <strong>Unilinx</strong>
         <div style={{ display: "flex", gap: "8px" }}>
           {(["en", "ja", "zh"] as Lang[]).map(l => (
