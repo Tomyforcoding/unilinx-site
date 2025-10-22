@@ -46,18 +46,14 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section style={{ padding: "60px 20px", textAlign: "center" }}>
-        <h1 style={{ fontSize: "32px", fontWeight: 700 }}>{t.title}</h1>
-        <p style={{ marginTop: "12px", opacity: 0.8 }}>{t.desc}</p>
-        <div style={{ marginTop: "20px" }}>
-          <a href="https://tally.so/r/your-form" style={{ padding: "12px 18px", border: "1px solid black", borderRadius: "8px", textDecoration: "none", color: "black" }}>
-            {t.cta}
-          </a>
-        </div>
-        <p style={{ marginTop: "10px", fontSize: "12px", opacity: 0.6 }}>
-          see you soon.
-        </p>
-      </section>
+<section className="flex flex-col items-center justify-center text-center py-32 px-6">
+  <h1 className="text-4xl font-serif font-semibold tracking-tight">
+    Unilinx
+  </h1>
+  <p className="mt-4 text-lg opacity-80">
+    please fill the form in the bottom right corner, thank you!
+  </p>
+</section>
 
       {/* Footer */}
       <footer style={{ borderTop: "1px solid #eee", padding: "20px", textAlign: "center", fontSize: "14px", opacity: 0.8 }}>
@@ -67,6 +63,15 @@ export default function Home() {
         </p>
         <p style={{ marginTop: "6px", fontSize: "12px", opacity: 0.6 }}>© {new Date().getFullYear()} Unilinx</p>
       </footer>
+      <button
+  data-tally-open="wa8MYb"
+  data-tally-emoji-text="👋"
+  data-tally-emoji-animation="wave"
+  className="px-6 py-3 border rounded-lg hover:bg-gray-100 transition"
+>
+  Take the 5-minute survey
+</button>
     </main>
+    
   );
 }
