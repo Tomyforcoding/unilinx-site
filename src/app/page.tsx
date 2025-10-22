@@ -69,7 +69,7 @@ export default function Home() {
   data-tally-emoji-animation="wave"
   className="px-6 py-3 border rounded-lg hover:bg-gray-100 transition"
 >
-  Take the 5-minute survey
+  Click me
 </button>
     </main>
     
