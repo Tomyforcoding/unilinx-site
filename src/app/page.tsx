@@ -53,6 +53,14 @@ export default function Home() {
   <p className="mt-4 text-lg opacity-80">
     please fill the form in the bottom right corner, thank you!
   </p>
+   <button
+  data-tally-open="wa8MYb"
+  data-tally-emoji-text="👋"
+  data-tally-emoji-animation="wave"
+  className="mt-10 px-6 py-3 border rounded-lg hover:bg-gray-100 transition"
+>
+  Click me
+</button>
 </section>
 
       {/* Footer */}
@@ -63,14 +71,7 @@ export default function Home() {
         </p>
         <p style={{ marginTop: "6px", fontSize: "12px", opacity: 0.6 }}>© {new Date().getFullYear()} Unilinx</p>
       </footer>
-      <button
-  data-tally-open="wa8MYb"
-  data-tally-emoji-text="👋"
-  data-tally-emoji-animation="wave"
-  className="px-6 py-3 border rounded-lg hover:bg-gray-100 transition"
->
-  Click me
-</button>
+     
     </main>
     
   );
